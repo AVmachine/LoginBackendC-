@@ -1,0 +1,6 @@
+@LoginDemo_HostAddress = http://localhost:5081
+
+GET {{LoginDemo_HostAddress}}/UserLogin/
+Accept: application/json
+
+###

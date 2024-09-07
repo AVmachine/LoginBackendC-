@@ -1,0 +1,8 @@
+To use a DB:
+Use MapApp
+
+To Create a collection:
+db.createCollection('Users')
+
+To Create a user (For schema purposes):
+db.Users.insert({ "Email": "alex@gmail.com", "Password": "1234", "FirstName": "Alex", "LastName": "Anthony"})
